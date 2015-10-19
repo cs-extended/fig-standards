@@ -247,6 +247,13 @@ class ClassName extends ParentClass implements
 }
 ```
 
+When instantiating a new class, parenthesis MUST always be present even when
+there are no arguments passed to the constructor.
+
+``php
+new Foo();
+```
+
 ### Properties
 
 Visibility MUST be declared on all properties.
